@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coin Carrière - الحدث الأول لتوظيف الميديا بايرز لوكالات الأسفار في المغرب.">
+    <title>Coin Carrière | الحدث الأول لوكالات الأسفار</title>
+    
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ufypoiqiml");
+    </script>
+    <!-- End Microsoft Clarity -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K22VDTFT');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1114522574222226');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1114522574222226&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cc: {
+                            blueLight: '#0094d9',
+                            blueMedium: '#16498c',
+                            blueDark: '#0b3f59',
+                            darkest: '#020b16',
+                            lime: '#dcfe11',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Almarai', 'sans-serif'],
+                        heading: ['Cairo', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 10s infinite ease-in-out',
+                        'float-reverse': 'floatReverse 12s infinite ease-in-out',
+                        'pulse-glow': 'pulseGlow 3s infinite',
+                        'border-flow': 'borderFlow 4s linear infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0) rotate(0deg)' },
+                            '50%': { transform: 'translateY(-20px) rotate(5deg)' },
+                        },
+                        floatReverse: {
+                            '0%, 100%': { transform: 'translateY(0) rotate(0deg)' },
+                            '50%': { transform: 'translateY(15px) rotate(-5deg)' },
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { boxShadow: '0 0 10px rgba(220, 254, 17, 0.2)' },
+                            '50%': { boxShadow: '0 0 25px rgba(220, 254, 17, 0.5)' },
+                        },
+                        borderFlow: {
+                            '0%': { backgroundPosition: '0% 50%' },
+                            '100%': { backgroundPosition: '100% 50%' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* --- SECURITY & BASICS --- */
+        body {
+            background-color: #16498c; 
+            color: #fff;
+            overflow-x: hidden;
+            /* Disable Text Selection to prevent copying */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        /* Enable selection only on inputs for usability */
+        input, textarea {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0b3f59; }
+        ::-webkit-scrollbar-thumb { background: #dcfe11; border-radius: 4px; }
+
+        /* --- BACKGROUND --- */
+        .bg-animated {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 50% 50%, #16498c 0%, #0b3f59 100%);
+            overflow: hidden;
+        }
+
+        .bg-grid {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(circle at center, black 40%, transparent 90%);
+            -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 90%);
+            opacity: 0.3;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.4;
+            z-index: -1;
+        }
+        .shape-1 { top: -20%; left: -10%; width: 600px; height: 600px; background: #0094d9; animation: float 15s infinite; }
+        .shape-2 { bottom: -20%; right: -10%; width: 700px; height: 700px; background: #16498c; animation: float-reverse 18s infinite; }
+        .shape-3 { top: 30%; left: 30%; width: 400px; height: 400px; background: rgba(220, 254, 17, 0.1); animation: float 12s infinite; }
+
+        /* --- CARDS --- */
+        .benefit-card, .target-card {
+            background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        .benefit-card:hover, .target-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(220, 254, 17, 0.3);
+            background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
+        }
+        .benefit-icon, .target-icon-box {
+            border-radius: 16px;
+            background: rgba(220, 254, 17, 0.1);
+            color: #dcfe11;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .benefit-icon { width: 70px; height: 70px; font-size: 2rem; margin-bottom: 1.5rem; margin-left: auto; margin-right: auto; } 
+        .target-icon-box { min-width: 50px; height: 50px; font-size: 1.2rem; }
+
+        /* --- VIDEO --- */
+        .video-box {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 0 0 1px rgba(255,255,255,0.1), 0 30px 60px -15px rgba(0,0,0,0.5);
+            transition: all 0.4s ease;
+            position: relative;
+            background: #000;
+            aspect-ratio: 16 / 9;
+        }
+        .video-box::before {
+            content: ''; position: absolute; inset: -2px; border-radius: 26px;
+            background: linear-gradient(45deg, #0094d9, #dcfe11, #16498c);
+            z-index: -1; opacity: 0.4; filter: blur(10px); transition: opacity 0.3s;
+        }
+        .video-box:hover { transform: translateY(-5px) scale(1.01); }
+        .video-box:hover::before { opacity: 0.7; }
+
+        /* Play Button Overlay */
+        .play-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 20;
+        }
+        .video-box.playing .play-overlay {
+            display: none;
+        }
+        .play-icon-circle {
+            width: 70px;
+            height: 70px;
+            background: rgba(220, 254, 17, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(220, 254, 17, 0.6);
+            transition: transform 0.3s;
+        }
+        @media (min-width: 768px) {
+            .play-icon-circle { width: 90px; height: 90px; }
+        }
+        .play-overlay:hover .play-icon-circle {
+            transform: scale(1.1);
+            background: #dcfe11;
+        }
+
+        /* --- BUTTONS --- */
+        .btn-action {
+            background-color: #dcfe11;
+            color: #0b3f59;
+            font-weight: 800;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .btn-action:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(220, 254, 17, 0.6); }
+
+        /* --- FORM --- */
+        .pro-form-wrapper {
+            background: rgba(11, 63, 89, 0.6);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 40px 80px -20px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        .pro-form-wrapper::after {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, transparent, #dcfe11, transparent);
+            animation: borderFlow 3s linear infinite; background-size: 200% 100%;
+        }
+        .pro-form-inner { padding: 2rem; } /* Adjusted padding for mobile */
+        @media (min-width: 768px) {
+            .pro-form-inner { padding: 3rem; }
+        }
+        .input-modern {
+            width: 100%; background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px; padding: 16px 16px 16px 50px;
+            color: #fff; transition: 0.3s; font-size: 1rem;
+        }
+        .input-modern:focus {
+            outline: none; border-color: #dcfe11;
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(220, 254, 17, 0.2);
+        }
+        .input-wrapper { position: relative; margin-bottom: 1.5rem; }
+        .input-icon {
+            position: absolute; left: 18px; top: 50%; transform: translateY(-50%); 
+            color: #cbd5e1; font-size: 1.1rem; transition: color 0.3s;
+        }
+        .input-modern:focus ~ .input-icon { color: #dcfe11; }
+
+        /* --- POPUP --- */
+        .popup-hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+        .popup-visible { opacity: 1; visibility: visible; pointer-events: auto; }
+        #popup-overlay { transition: all 0.3s ease; }
+        #popup-content { transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+        /* --- THANK YOU PAGE --- */
+        #thank-you-page {
+            display: none; min-height: 100vh;
+            align-items: center; justify-content: center; text-align: center;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 200; background: radial-gradient(circle at 50% 50%, #16498c 0%, #0b3f59 100%);
+        }
+        .thank-you-card {
+            background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1); padding: 3rem;
+            border-radius: 24px; max-width: 500px; width: 90%;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+        }
+        .check-icon-wrapper {
+            width: 80px; height: 80px; background: rgba(220, 254, 17, 0.2);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 1.5rem; color: #dcfe11; font-size: 2.5rem;
+        }
+    </style>
+</head>
+<body class="selection:bg-cc-lime selection:text-cc-darkest overflow-x-hidden" oncontextmenu="return false;">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K22VDTFT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- MAIN LANDING PAGE -->
+    <div id="main-landing-page" class="w-full overflow-hidden">
+        <div class="bg-animated">
+            <div class="bg-grid"></div>
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+
+        <header class="fixed w-full z-50 top-0 bg-white/95 backdrop-blur-md border-b border-cc-blueLight/10 shadow-sm transition-all duration-300">
+            <div class="container mx-auto px-4 py-3 flex justify-center md:justify-between items-center relative">
+                <div class="flex items-center gap-3">
+                    <img src="logo.png" alt="Coin Carrière" class="h-10 md:h-12 object-contain">
+                </div>
+                <button onclick="scrollToForm()" class="hidden md:block border-2 border-cc-blueDark text-cc-blueDark px-6 py-2 rounded-full font-bold text-sm hover:bg-cc-blueDark hover:text-white transition-colors absolute left-4 md:static">
+                    VIP ACCESS
+                </button>
+            </div>
+        </header>
+
+        <main class="pt-28 md:pt-32 pb-20">
+            <!-- HERO -->
+            <section class="container mx-auto px-4 text-center mb-16 md:mb-24 relative z-10">
+                <div class="mb-6 md:mb-8" data-aos="fade-down">
+                    <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cc-blueMedium/40 border border-white/20 text-white text-xs font-bold tracking-wider backdrop-blur-md shadow-lg">
+                        <span class="w-2 h-2 rounded-full bg-cc-lime animate-pulse"></span>
+                        حدث مباشر وحصري - يناير 2026
+                    </span>
+                </div>
+                <!-- Responsive Text Size -->
+                <h1 class="font-heading text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 md:mb-8 text-white drop-shadow-lg" data-aos="zoom-in">
+                    بزاف ديال وكالات الأسفار <br>
+                    <span class="text-cc-lime">كتعاني من نفس المشكلة...</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-100 max-w-3xl mx-auto mb-8 md:mb-12 font-light leading-relaxed px-2" data-aos="fade-up">
+                    كتصرف على الإشهار ولكن ما كتشوفش النتائج.<br>
+                    والزبناء؟ كيوصلو قليل... وحتى الحملات اللي كتديري كتخسر.
+                </p>
+                <div class="max-w-4xl mx-auto mb-12" data-aos="fade-up">
+                    <div class="video-box aspect-video group" id="video-container">
+                        <!-- VIDEO FILE: poster.jpg used as thumbnail - controls enabled -->
+                        <video id="hero-video" class="w-full h-full object-cover" poster="poster.jpg" controls playsinline>
+                            <source src="teravel 3.mp4" type="video/mp4">
+                        </video>
+                        
+                        <!-- CUSTOM PLAY BUTTON OVERLAY - Made fully clickable -->
+                        <div class="play-overlay" id="play-btn" onclick="playVideo()">
+                            <div class="play-icon-circle animate-pulse-glow">
+                                <i class="fas fa-play text-cc-darkest text-2xl md:text-4xl ml-1 md:ml-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <button onclick="scrollToForm()" class="btn-action text-lg md:text-xl py-4 px-8 md:px-12 rounded-full shadow-lg flex items-center gap-3 mx-auto text-cc-darkest">
+                        <span>احجز مقعدك الآن (مجاناً)</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- PARTNERS -->
+            <div class="py-10 mb-24 bg-white/10 border-y border-white/10 backdrop-blur-sm w-full overflow-hidden">
+                <div class="container mx-auto px-4 text-center">
+                    <p class="text-xs text-gray-300 font-bold uppercase tracking-widest mb-8">شركاء النجاح الذين يثقون في أنظمتنا</p>
+                    <div class="flex flex-wrap justify-center items-center gap-6 md:gap-16 opacity-80 hover:opacity-100 transition-all duration-500">
+                        <div class="flex items-center gap-2 text-sm md:text-xl font-bold text-white"><i class="fas fa-university text-cc-lime"></i> EliteCenter</div>
+                        <div class="flex items-center gap-2 text-sm md:text-xl font-bold text-white"><i class="fas fa-book-open text-cc-lime"></i> FutureLearn</div>
+                        <div class="flex items-center gap-2 text-sm md:text-xl font-bold text-white"><i class="fas fa-graduation-cap text-cc-lime"></i> AcademyPro</div>
+                        <div class="flex items-center gap-2 text-sm md:text-xl font-bold text-white"><i class="fas fa-school text-cc-lime"></i> HighSchool</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARGET AUDIENCE -->
+            <section class="container mx-auto px-4 mb-32 max-w-4xl">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="font-heading text-2xl md:text-4xl font-bold mb-4 text-white">هذه الدعوة موجهة خصيصاً <br class="md:hidden"><span class="text-cc-lime">لمن يعاني من...</span></h2>
+                    <div class="w-24 h-1.5 bg-cc-blueLight mx-auto rounded-full"></div>
+                </div>
+                <div class="space-y-4">
+                    <!-- Cards with better mobile padding -->
+                    <div class="target-card p-5 md:p-6 flex items-start gap-4" data-aos="fade-left">
+                        <div class="target-icon-box flex-shrink-0"><i class="fas fa-calendar-times"></i></div>
+                        <div><h4 class="text-white font-bold text-lg mb-1">المواسم الميتة (Basse Saison)</h4><p class="text-gray-300 text-sm">كاتعاني فالفترات اللي مكيكونش فيها الطلب والبيرو كيصفر؟</p></div>
+                    </div>
+                    <div class="target-card p-5 md:p-6 flex items-start gap-4" data-aos="fade-left">
+                        <div class="target-icon-box flex-shrink-0"><i class="fas fa-fire-alt"></i></div>
+                        <div><h4 class="text-white font-bold text-lg mb-1">حرق الأسعار</h4><p class="text-gray-300 text-sm">عييتي من المنافسة الشرسة مع Booking و Expedia اللي كيحرقو السوق؟</p></div>
+                    </div>
+                    <div class="target-card p-5 md:p-6 flex items-start gap-4" data-aos="fade-left">
+                        <div class="target-icon-box flex-shrink-0"><i class="fas fa-bullhorn"></i></div>
+                        <div><h4 class="text-white font-bold text-lg mb-1">إعلانات بلا حجوزات</h4><p class="text-gray-300 text-sm">كاتخسر فلوسك فـ Ads والناس كيسولو غير على "أرخص ثمن" بلا ما يشريو؟</p></div>
+                    </div>
+                    <div class="target-card p-5 md:p-6 flex items-start gap-4" data-aos="fade-left">
+                        <div class="target-icon-box flex-shrink-0"><i class="fas fa-plane-departure"></i></div>
+                        <div><h4 class="text-white font-bold text-lg mb-1">باكاجات High-Ticket</h4><p class="text-gray-300 text-sm">باغي تبيع عمرة، تركيا، أو ماليزيا (تذاكر غالية) ولكن ماعارفش لمن تبيع؟</p></div>
+                    </div>
+                    <div class="target-card p-5 md:p-6 flex items-start gap-4 border-cc-lime/50 bg-cc-lime/5" data-aos="fade-left">
+                        <div class="target-icon-box flex-shrink-0 bg-cc-lime text-cc-darkest"><i class="fas fa-check-double"></i></div>
+                        <div><h4 class="text-white font-bold text-lg mb-1">الحل الجذري</h4><p class="text-gray-200 text-sm">خاصك نظام كيجيب ليك ناس واجدين يسافرو ويخلصو دابا.</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SOLUTION -->
+            <section class="py-24 bg-cc-darkest/40 border-y border-white/5 relative backdrop-blur-sm">
+                <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-16">
+                    <div class="lg:w-1/2" data-aos="fade-right">
+                        <h2 class="font-heading text-3xl md:text-5xl font-black mb-8 leading-tight text-white text-center lg:text-right">
+                            الحل هو <span class="text-cc-lime">Coin Carrière</span> <br>
+                            بشراكة مع Media Buying Academy
+                        </h2>
+                        <div class="text-base md:text-lg text-blue-100 space-y-6 border-r-4 border-cc-lime pr-6">
+                            <p>كينضمو <strong class="text-white">أول لقاء</strong> كيجمع بين وكالات الاسفار وأفضل الميديا باييرز في المغرب.</p>
+                            <p>لقاء <span class="text-cc-lime font-bold">100٪ مجاني واونلاين</span> مع عشرات الميديا بييرز متخرجين وجاهزين للعمل.</p>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 relative w-full" data-aos="fade-left">
+                        <div class="absolute -top-10 -right-10 w-40 h-40 bg-cc-lime/10 blur-[80px] rounded-full animate-float"></div>
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Meeting" class="relative rounded-2xl shadow-2xl w-full border border-white/20 transform rotate-2 hover:rotate-0 transition-all duration-500">
+                    </div>
+                </div>
+            </section>
+
+            <!-- BENEFITS (Centered Cards) -->
+            <section class="py-24 container mx-auto px-4">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="font-heading text-2xl md:text-4xl font-bold mb-4 text-white">
+                        لماذا يجب أن توظف <br class="md:hidden"><span class="text-cc-lime">ميديا باير محترف</span> الآن؟
+                    </h2>
+                    <div class="w-24 h-1.5 bg-cc-blueLight mx-auto rounded-full"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Added text-center here -->
+                    <div class="benefit-card group text-center" data-aos="fade-up">
+                        <div class="benefit-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">استهداف دقيق جداً</h3>
+                        <p class="text-gray-200 text-base md:text-lg leading-relaxed font-light">الميديا باير المحترف يعرف كيف يصل لزبائنك المثاليين بدقة متناهية، مما يرفع نسبة الحجوزات.</p>
+                    </div>
+                    <div class="benefit-card group text-center" data-aos="fade-up">
+                        <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">تخفيض تكلفة العميل</h3>
+                        <p class="text-gray-200 text-base md:text-lg leading-relaxed font-light">بفضل خبرتهم في تحسين الحملات، سيقومون بتقليل تكلفة النقرة، مما يعني نتائج أكثر بنفس الميزانية.</p>
+                    </div>
+                    <div class="benefit-card group text-center" data-aos="fade-up">
+                        <div class="benefit-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">مواكبة التحديثات</h3>
+                        <p class="text-gray-200 text-base md:text-lg leading-relaxed font-light">الميديا باير خبير وظيفته الوحيدة هي مواكبة تغيرات خوارزميات الإعلانات لضمان نجاح حملاتك.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- URGENCY -->
+            <section class="py-24 container mx-auto px-4 bg-cc-darkest/20">
+                <div class="max-w-4xl mx-auto bg-gradient-to-r from-cc-blueMedium/40 to-cc-blueDark/60 border border-cc-lime/30 rounded-3xl p-8 md:p-12 text-center relative overflow-hidden group" data-aos="zoom-in">
+                    <div class="absolute inset-0 bg-cc-lime/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <h3 class="font-heading text-2xl md:text-5xl font-black mb-6 leading-tight text-white relative z-10">
+                        هاد الفرصة ما كتكررش <br>
+                        <span class="text-cc-lime drop-shadow-md">والبلايص محدودين</span>
+                    </h3>
+                    <p class="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto relative z-10">
+                        سجل دابا... و خود بلاصتك فهاد اللقاء المجاني اللي غادي يطلع وكالتك لمستوى اخر.
+                    </p>
+                    <button onclick="scrollToForm()" class="btn-action bg-white text-cc-darkest py-4 px-10 rounded-full relative z-10 hover:bg-cc-lime transition-colors w-full md:w-auto">
+                        حجز مقعد مجاني
+                    </button>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="container mx-auto px-4 mb-32 max-w-3xl">
+                <h2 class="font-heading text-2xl md:text-3xl font-bold text-center mb-12 text-white">الأسئلة الأكثر شيوعاً</h2>
+                <div class="space-y-4">
+                    <div class="bg-white/10 p-6 rounded-xl border border-white/10 cursor-pointer group hover:bg-white/20 transition-all" onclick="this.classList.toggle('active')">
+                        <div class="flex justify-between items-center">
+                            <h4 class="font-bold text-white text-base md:text-lg group-hover:text-cc-lime transition-colors">هل هذا اللقاء مجاني؟</h4>
+                            <i class="fas fa-chevron-down text-cc-lime transition-transform group-[.active]:rotate-180"></i>
+                        </div>
+                        <div class="grid grid-rows-[0fr] group-[.active]:grid-rows-[1fr] transition-all duration-300">
+                            <p class="text-blue-100 text-sm overflow-hidden pt-0 group-[.active]:pt-4">نعم، الحدث مجاني 100% لوكالات الأسفار.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-xl border border-white/10 cursor-pointer group hover:bg-white/20 transition-all" onclick="this.classList.toggle('active')">
+                        <div class="flex justify-between items-center">
+                            <h4 class="font-bold text-white text-base md:text-lg group-hover:text-cc-lime transition-colors">هل الورشة أونلاين أم حضورية؟</h4>
+                            <i class="fas fa-chevron-down text-cc-lime transition-transform group-[.active]:rotate-180"></i>
+                        </div>
+                        <div class="grid grid-rows-[0fr] group-[.active]:grid-rows-[1fr] transition-all duration-300">
+                            <p class="text-blue-100 text-sm overflow-hidden pt-0 group-[.active]:pt-4">أونلاين (عن بعد) عبر منصة خاصة.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-xl border border-white/10 cursor-pointer group hover:bg-white/20 transition-all" onclick="this.classList.toggle('active')">
+                        <div class="flex justify-between items-center">
+                            <h4 class="font-bold text-white text-base md:text-lg group-hover:text-cc-lime transition-colors">ماذا يحدث بعد التسجيل؟</h4>
+                            <i class="fas fa-chevron-down text-cc-lime transition-transform group-[.active]:rotate-180"></i>
+                        </div>
+                        <div class="grid grid-rows-[0fr] group-[.active]:grid-rows-[1fr] transition-all duration-300">
+                            <p class="text-blue-100 text-sm overflow-hidden pt-0 group-[.active]:pt-4">سنتواصل معك لتأكيد الحضور وإرسال رابط الدخول.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FORM SECTION -->
+            <section id="register-form" class="py-24 bg-gradient-to-t from-cc-darkest to-cc-blueDark/20 border-t border-white/5">
+                <div class="container mx-auto px-4">
+                    <div class="max-w-4xl mx-auto text-center mb-16" data-aos="fade-up">
+                        <h2 class="font-heading text-3xl md:text-5xl font-black mb-6 text-white">جاهز لنقل وكالتك للمستوى التالي؟</h2>
+                        <p class="text-lg md:text-xl text-blue-100 mb-8">لا تضيع فرصة الحصول على خارطة طريق واضحة.<br><span class="text-cc-lime font-bold">املأ الاستمارة الآن واحجز مكانك.</span></p>
+                    </div>
+
+                    <div class="max-w-2xl mx-auto pro-form-wrapper" data-aos="zoom-in-up">
+                        <div class="pro-form-inner">
+                            <div class="text-center mb-10">
+                                <h3 class="text-2xl font-bold font-heading text-white">بطاقة التسجيل الرسمية</h3>
+                                <p class="text-xs text-cc-blueLight mt-2 uppercase tracking-widest font-bold">Coin Carrière Event 2026</p>
+                            </div>
+                            <form id="main-form" onsubmit="handleFormSubmit(event)">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-user input-icon"></i>
+                                        <input type="text" name="name" id="name" class="input-modern" placeholder="الاسم الكامل" required autocomplete="name">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-building input-icon"></i>
+                                        <input type="text" name="agency" id="agency" class="input-modern" placeholder="اسم الوكالة" required>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-phone input-icon"></i>
+                                        <input type="tel" name="phone" id="phone" dir="ltr" class="input-modern text-right" placeholder="الهاتف" required autocomplete="tel">
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-envelope input-icon"></i>
+                                        <input type="email" name="email" id="email" dir="ltr" class="input-modern text-right" placeholder="البريد الإلكتروني" required autocomplete="email">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn-action w-full py-4 rounded-xl text-lg mt-6 shadow-lg flex items-center justify-center gap-2 group text-cc-darkest">
+                                    <span>تأكيد الحجز</span>
+                                    <i class="fas fa-check-circle group-hover:scale-110 transition-transform"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-20 text-gray-400 text-xs pt-8 border-t border-white/10">
+                        <p class="mb-4 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                            <img src="logo.png" alt="Logo" class="h-8 inline">
+                        </p>
+                        &copy; 2026 Coin Carrière. جميع الحقوق محفوظة.
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- POPUP -->
+        <div id="popup-overlay" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 popup-hidden" onclick="handleBackdropClick(event)">
+            <div id="popup-content" class="pro-form-wrapper w-full max-w-md">
+                <div class="pro-form-inner relative bg-cc-blueDark p-6 md:p-8">
+                    <button onclick="dismissPopup()" class="absolute top-4 left-4 text-white hover:text-cc-lime transition-colors p-2" title="Close"><i class="fas fa-times text-xl"></i></button>
+                    <div class="text-center mb-6 mt-2">
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce shadow-lg">
+                            <i class="fas fa-bell text-cc-blueDark text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading text-xl md:text-2xl font-bold mb-2 text-white">ما تفلتش الفرصة!</h3>
+                        <p class="text-gray-200 text-sm">سجل دابا باش تضمن بلاصتك.</p>
+                    </div>
+                    <form id="popup-form" onsubmit="handlePopupSubmit(event)">
+                        <div class="input-wrapper mb-4">
+                            <i class="fas fa-user input-icon"></i>
+                            <input type="text" name="name" id="popup-name" class="input-modern" placeholder="الاسم الكامل" required autocomplete="name">
+                        </div>
+                        <div class="input-wrapper mb-4">
+                            <i class="fas fa-building input-icon"></i>
+                            <input type="text" name="agency" id="popup-agency" class="input-modern" placeholder="اسم الوكالة" required>
+                        </div>
+                        <div class="input-wrapper mb-4">
+                            <i class="fas fa-envelope input-icon"></i>
+                            <input type="email" name="email" id="popup-email" dir="ltr" class="input-modern text-right" placeholder="البريد الإلكتروني" required autocomplete="email">
+                        </div>
+                        <div class="input-wrapper mb-4">
+                            <i class="fas fa-phone input-icon"></i>
+                            <input type="tel" name="phone" id="popup-phone" dir="ltr" class="input-modern text-right" placeholder="رقم الهاتف" required autocomplete="tel">
+                        </div>
+                        <button type="submit" class="btn-action w-full py-3 rounded-lg font-bold text-cc-darkest">سجلني دابا</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- THANK YOU PAGE -->
+    <div id="thank-you-page">
+        <div class="bg-animated"><div class="bg-grid"></div></div>
+        <div class="thank-you-card" data-aos="zoom-in">
+            <div class="check-icon-wrapper"><i class="fas fa-check-circle"></i></div>
+            <h1 class="font-heading text-3xl md:text-4xl font-black mb-4 text-white">تم التسجيل بنجاح!</h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-8">شكراً لانضمامك إلينا. لقد تم حجز مقعدك بنجاح في حدث <span class="text-cc-lime font-bold">Coin Carrière</span>.</p>
+            <p class="text-sm text-gray-400 mb-8">سيتصل بك فريقنا قريباً لتأكيد التفاصيل.</p>
+            
+            <div class="flex flex-col gap-4 justify-center items-center">
+                <a href="https://addcal.io/e/tz57ig6hf0hl" target="_blank" class="btn-action px-8 py-3 rounded-full text-cc-darkest font-bold inline-flex items-center gap-2 hover:shadow-lg transition-all transform hover:scale-105 w-full md:w-auto justify-center">
+                    <i class="far fa-calendar-plus"></i>
+                    <span>أضف إلى التقويم</span>
+                </a>
+                
+                <button onclick="returnHome()" class="text-gray-400 hover:text-white text-sm underline mt-2">
+                    العودة للصفحة الرئيسية
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ... (Scripts remain mostly the same, ensuring no errors) ...
+        // --- PREVENT THEFT SCRIPTS ---
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.onkeydown = function(e) {
+            if (event.keyCode == 123) { // F12
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Ctrl+Shift+I
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { // Ctrl+Shift+C
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { // Ctrl+Shift+J
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Ctrl+U
+                return false;
+            }
+        }
+
+        // --- VIDEO PLAY LOGIC ---
+        function playVideo() {
+            const video = document.getElementById('hero-video');
+            const container = document.getElementById('video-container');
+            const playBtn = document.getElementById('play-btn');
+            
+            if (video.paused) {
+                video.play();
+                container.classList.add('playing');
+            } else {
+                video.pause();
+                container.classList.remove('playing');
+            }
+        }
+        
+        document.getElementById('hero-video').addEventListener('ended', function() {
+             document.getElementById('video-container').classList.remove('playing');
+        });
+
+        const videoEl = document.getElementById('hero-video');
+        let isVideoPlaying = false;
+        
+        if(videoEl){
+            videoEl.onplay = () => { isVideoPlaying = true; };
+            videoEl.onpause = () => { isVideoPlaying = false; };
+            videoEl.onended = () => { isVideoPlaying = false; };
+        }
+
+        // --- FORM HANDLING ---
+        async function submitToFormspree(formElement) {
+            const formData = new FormData(formElement);
+            const data = {};
+            formData.forEach((value, key) => data[key] = value);
+            
+            if(formElement.id === 'main-form' && !data.source) data.source = 'Main Landing Form';
+            if(formElement.id === 'popup-form') {
+                if(!data.source) data.source = 'Popup Exit Intent';
+                if(!data.agency) data.agency = 'N/A (Popup)'; 
+            }
+
+            fetch("https://hook.eu1.make.com/9rm2sxswpj87ww9s2x3q8rhi1hr3gk52", {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+            }).then(response => {
+                if (!response.ok) {
+                    console.error("Background submission failed", response);
+                }
+            }).catch(error => {
+                console.error("Network error in background", error);
+                alert("عذراً، حدث خطأ في الاتصال. يرجى التأكد من اتصالك بالإنترنت وإعادة المحاولة.");
+            });
+
+            return true;
+        }
+
+        // --- UI LOGIC ---
+        AOS.init({ once: true, offset: 60, duration: 800 });
+        function scrollToForm() { document.getElementById('register-form').scrollIntoView({ behavior: 'smooth' }); }
+        
+        const popup = document.getElementById('popup-overlay');
+        let isBusy = false;
+        let isDismissed = false; 
+        
+        function showPopup() { 
+            if (isDismissed || isBusy || popup.classList.contains('popup-visible') || document.getElementById('thank-you-page').style.display === 'flex' || isVideoPlaying) return; 
+            
+            popup.classList.remove('popup-hidden'); 
+            popup.classList.add('popup-visible'); 
+        }
+        
+        function closePopup() { popup.classList.remove('popup-visible'); popup.classList.add('popup-hidden'); }
+        function dismissPopup() { closePopup(); isDismissed = true; }
+        function handleBackdropClick(e) { if (e.target === popup) { dismissPopup(); } }
+        setTimeout(() => { showPopup(); }, 15000);
+        document.addEventListener('mouseleave', (e) => { if (e.clientY <= 0) showPopup(); });
+        ['keydown', 'mousedown', 'scroll'].forEach(evt => { window.addEventListener(evt, () => { isBusy = true; setTimeout(() => isBusy = false, 5000); }); });
+
+        function showThankYouPage() {
+            document.getElementById('main-landing-page').style.display = 'none';
+            closePopup();
+            const thankYouPage = document.getElementById('thank-you-page');
+            thankYouPage.style.display = 'flex';
+            
+            var duration = 3 * 1000;
+            var animationEnd = Date.now() + duration;
+            var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 300 };
+            function randomInRange(min, max) { return Math.random() * (max - min) + min; }
+            var interval = setInterval(function() {
+                var timeLeft = animationEnd - Date.now();
+                if (timeLeft <= 0) { return clearInterval(interval); }
+                var particleCount = 50 * (timeLeft / duration);
+                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+            }, 250);
+        }
+
+        function returnHome() {
+            const thankYouPage = document.getElementById('thank-you-page');
+            thankYouPage.style.display = 'none';
+            document.getElementById('main-landing-page').style.display = 'block';
+            window.scrollTo(0, 0); 
+        }
+
+        async function handleFormSubmit(e) { 
+            e.preventDefault(); 
+            const form = e.target;
+            const btn = form.querySelector('button'); 
+            const oldText = btn.innerHTML; 
+            btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> جاري الحجز...'; 
+            btn.disabled = true;
+
+            const success = await submitToFormspree(form);
+
+            if (success) {
+                showThankYouPage();
+                form.reset();
+            }
+            
+            btn.innerHTML = oldText;
+            btn.disabled = false;
+        }
+        
+        async function handlePopupSubmit(e) { 
+            e.preventDefault(); 
+            const form = e.target;
+            const btn = form.querySelector('button');
+            const oldText = btn.innerHTML;
+            btn.innerHTML = 'جاري...';
+            btn.disabled = true;
+            
+            const success = await submitToFormspree(form);
+
+            if (success) {
+                showThankYouPage();
+                form.reset();
+            }
+
+            btn.innerHTML = oldText;
+            btn.disabled = false;
+        }
+    </script>
+</body>
+</html>
