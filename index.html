@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Coin Carrière - الحدث الأول لتوظيف الميديا بايرز لوكالات الأسفار في المغرب.">
     <title>Coin Carrière | الحدث الأول لوكالات الأسفار</title>
     
-    <!-- Microsoft Clarity -->
+    <!-- Microsoft Clarity (Updated) -->
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "ufypoiqiml");
+        })(window, document, "clarity", "script", "ugtje06orn");
     </script>
     <!-- End Microsoft Clarity -->
 
@@ -111,15 +111,15 @@
         body {
             background-color: #16498c; 
             color: #fff;
-            overflow-x: hidden;
-            /* Disable Text Selection to prevent copying */
+            overflow-x: hidden; /* Critical for mobile to prevent side scrolling */
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+            width: 100%;
+            position: relative;
         }
         
-        /* Enable selection only on inputs for usability */
         input, textarea {
             -webkit-user-select: text;
             -moz-user-select: text;
@@ -127,7 +127,10 @@
             user-select: text;
         }
 
-        html { scroll-behavior: smooth; }
+        html { 
+            scroll-behavior: smooth; 
+            overflow-x: hidden; /* Critical */
+        }
 
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #0b3f59; }
@@ -222,7 +225,7 @@
             display: none;
         }
         .play-icon-circle {
-            width: 70px;
+            width: 70px; /* Smaller for mobile */
             height: 70px;
             background: rgba(220, 254, 17, 0.9);
             border-radius: 50%;
@@ -709,7 +712,8 @@
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
-                }
+                },
+                credentials: 'omit' // Added to avoid CORS issues with cookies
             }).then(response => {
                 if (!response.ok) {
                     console.error("Background submission failed", response);
