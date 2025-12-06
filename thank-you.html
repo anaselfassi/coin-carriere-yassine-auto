@@ -62,11 +62,23 @@
     </script>
     
     <style>
+        /* --- SECURITY STYLES --- */
         body {
             background-color: #16498c; 
             color: #fff;
             overflow: hidden;
+            /* Disable selection */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
+
+        /* Hide content when printing */
+        @media print {
+            body { display: none; }
+        }
+
         .bg-animated {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;
             background: radial-gradient(circle at 50% 50%, #16498c 0%, #0b3f59 100%);
@@ -96,7 +108,7 @@
         .btn-action:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(220, 254, 17, 0.6); }
     </style>
 </head>
-<body class="flex items-center justify-center min-h-screen">
+<body class="flex items-center justify-center min-h-screen" oncontextmenu="return false;">
 
     <div class="bg-animated"><div class="bg-grid"></div></div>
 
@@ -119,6 +131,29 @@
     </div>
 
     <script>
+        // --- SECURITY SCRIPTS ---
+        // Prevent Right Click
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        // Prevent Developer Tools Shortcuts
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123) { // F12
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Ctrl+Shift+I
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { // Ctrl+Shift+C
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { // Ctrl+Shift+J
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Ctrl+U
+                return false;
+            }
+        };
+
         // Trigger Confetti on Load
         window.onload = function() {
             var duration = 3 * 1000;
